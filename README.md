@@ -1,7 +1,18 @@
-```markdown
 # 🤖 Multi-LLM Debate Arena & Persona Orchestrator
 
 An interactive multi-agent chat interface built with **Gradio**, **LiteLLM / OpenAI SDK**, and **Python**. The application orchestrates real-time, round-robin debates between multiple frontier and open-weight Large Language Models (LLMs)—such as OpenAI GPT-4.1, Google Gemini, and locally hosted Ollama models—using custom personas.
+
+---
+
+## Demo
+
+This project demonstrates a multi-LLM debate and persona orchestration workflow:
+
+- Supports multiple LLM providers through a unified interface
+- Assigns different personas to participating models
+- Orchestrates multi-round debate and reasoning
+- Streams model responses in real time
+- Provides an interactive Gradio interface
 
 ---
 
@@ -60,9 +71,8 @@ OLLAMA_BASE_URL=http://localhost:11434/v1
 ### Option 1: Using `uv` (Recommended)
 
 ```bash
-# Clone the repository
-git clone [https://github.com/your-username/debate_arena.git](https://github.com/your-username/debate_arena.git)
-cd debate_arena
+git clone https://github.com/FMangiwa/debate-arena.git
+cd debate-arena
 
 # Install dependencies and launch app
 uv run python app.py
