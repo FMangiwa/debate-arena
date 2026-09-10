@@ -109,3 +109,9 @@ Debaters are visually distinguished using CSS class variables mapped across both
 | **Charlie** | Local (`Llama 3.2 Ollama`) | `#ea580c` (Warm Orange) | `#fb923c` (Vivid Amber) |
 
 ---
+
+## License
+
+See `LICENSE`.
+
+---
